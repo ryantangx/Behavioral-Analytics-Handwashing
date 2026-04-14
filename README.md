@@ -6,9 +6,9 @@
 [![View Study](https://img.shields.io/badge/Journal-View_Publication-blue?logo=google-chrome&style=flat)](https://university.help.edu.my/wp-content/uploads/2025/05/JAPP-007-R2-Final-Version-Updated.pdf)
 
 ## 📌 Abstract
-Public health compliance—specifically handwashing—often experiences a "decay effect" after initial enforcement. This study investigates the efficacy of **digital nudges** (social norms and incentives) in fostering long-term handwashing habits among university students. 
+Despite the critical importance of hygiene, public health compliance often wanes over time. This research explores the efficacy of **digital nudges**—specifically social norm and incentive-based cues—delivered via digital displays to foster long-term handwashing habits.
 
-Using a 1-IV 3-Levels between-subjects design (N=178), I measured habit strength using the **Self-Report Habit Index (SRHI)** over a one-month intervention. While the experimental nudges showed non-significant results, the data provides a critical baseline for developing more sophisticated, high-frequency "nudging" pipelines that leverage real-time data and behavioral architecture.
+In a between-subjects experimental study involving **178 participants**, I investigated whether subtle context changes could influence the **Self-Report Habit Index (SRHI)** scores over a one-month intervention period. While the results indicated non-significant differences between conditions, the study provides a vital technical foundation for using **behavioral economics** and **Big Data** to design more effective, personalized health interventions.
 
 ---
 
