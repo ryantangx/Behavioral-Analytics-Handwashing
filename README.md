@@ -22,14 +22,53 @@ The study was structured to compare two different behavioral "frames" against a 
 ---
 
 ## 📈 Exploratory Data Analysis (EDA)
-EDA was conducted in **R** to evaluate data distribution and identify potential demographic moderators like gender and faculty.
+The EDA phase focused on evaluating data distribution and identifying potential demographic moderators.
 
 ### 1. Habit Strength by Nudge Condition
-```r
-# Visualizing SRHI distribution across experimental groups
-ggplot(df, aes(x = TypeofNudge_cat, y = SRHI_Avg, fill = TypeofNudge_cat)) +
-  geom_boxplot(alpha = 0.7) +
-  labs(title = "Habit Strength Across Nudge Conditions",
-       x = "Nudge Type", 
-       y = "Mean SRHI Score") +
-  theme_minimal()
+Analyzed the spread and median of the SRHI scores across the three experimental levels (Social Norm, Incentive, and Control).
+
+![Habit Strength by Condition](link_to_your_condition_boxplot_image_here)
+*Figure 1: Comparison of SRHI scores across Social Norm, Incentive, and Control groups.*
+
+### 2. Habit Strength by Gender
+Evaluated baseline behavioral differences between genders to ensure demographic variables did not skew the nudge efficacy.
+
+![Habit Strength by Gender](link_to_your_gender_boxplot_image_here)
+*Figure 2: Distribution of SRHI scores highlighting similar behavioral baselines across gender identities.*
+
+---
+
+## 🧠 Statistical Analysis & Results (SPSS)
+A One-Way ANOVA was used to evaluate the primary research question. Despite the theoretical strength of nudging, static digital delivery proved insufficient for significant habit formation in this context.
+
+### Inferential Statistics
+| Condition | Mean (M) | Std. Deviation (SD) | F(2, 174) | p-value |
+| :--- | :--- | :--- | :--- | :--- |
+| **Social Norm** | 4.10 | 1.55 | -- | -- |
+| **Incentive** | 4.24 | 1.44 | -- | -- |
+| **Control** | 4.17 | 1.58 | **0.115** | **.892** |
+
+**Key Insight:** The $p$-value of **.892** suggests that there was no significant difference between the groups. This "null" result highlights the limitations of **passive digital interventions** compared to active, context-aware nudging.
+
+---
+
+## 🎯 Strategic Data Recommendations
+To improve the efficacy of behavioral interventions, future strategies should transition from **Static Nudges** to **Dynamic Data Pipelines**:
+
+1.  **Context-Aware Nudging**: Integrate IoT sensors (e.g., smart soap dispensers) to trigger nudges *at the moment of choice* rather than via weekly emails.
+2.  **User Segmentation**: Apply clustering to identify "Nudge-Resistant" vs. "Nudge-Responsive" personas to personalize delivery frequency.
+3.  **Reinforcement Learning**: Implement an RL-agent to optimize nudge framing based on real-time participant engagement data.
+
+---
+
+## 📖 Publication Detail
+This research has been formally published in the **Journal of Applied Psychology & Psychology (JAPP)**. 
+
+**Citation:**
+Tang, R. C. H. (2025). Make it a habit: The effect of nudges on habitual handwashing behavior. *Journal of Applied Psychology & Psychology*, 7(2). 
+
+**Full Publication Access:**
+[Read the paper here](https://university.help.edu.my/wp-content/uploads/2025/05/JAPP-007-R2-Final-Version-Updated.pdf)
+
+---
+*© 2026 Ryan Tang.*
