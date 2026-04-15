@@ -17,7 +17,7 @@ The study was structured to compare two different behavioral "frames" against a 
 
 * **Experimental Framework**: 1-IV 3-Levels Between-Subjects.
 * **Intervention**: Weekly digital nudge delivery via high-salience digital posters for 30 days.
-* **Reliability**: The SRHI scale demonstrated exceptional internal consistency (**Cronbach’s Alpha = .964**).
+* **Reliability**: The SRHI scale demonstrated exceptional internal consistency ($a$ = .96).
 
 ---
 
